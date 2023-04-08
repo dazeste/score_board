@@ -13,11 +13,17 @@
   box-sizing: border-box;
 }
 .conatiner{
-  background:var(--clr-dark);
+  background-color:var(--clr-dark);
   width: 500px;
   height: 550px;
   color: var(--clr-white);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#home-htn{
+  width: 90px;
+  height: 90px;
+  background-color: var(--clr-white);
+  color: var(--clr-dark);
 }
