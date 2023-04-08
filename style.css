@@ -3,6 +3,8 @@
 :root{
   --font-title: 'Codystar', cursive;
   --clr-white:#fff;
+  --clr-black:#333;
+  --clr-dark:#444;
 };
 
 *{
@@ -11,7 +13,7 @@
   box-sizing: border-box;
 }
 .conatiner{
-  background:#444;
+  background:var(--clr-dark);
   width: 500px;
   height: 550px;
   color: var(--clr-white);
