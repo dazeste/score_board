@@ -2,4 +2,16 @@
 
 :root{
   --font-title: 'Codystar', cursive;
+  --clr-white:#fff;
 };
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.conatiner{
+  background:#444;
+  width: 500px;
+  height: 550px;
+  color: white;
+}
