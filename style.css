@@ -4,6 +4,7 @@
   --font-title: 'Codystar', cursive;
   --clr-white:#fff;
 };
+
 *{
   margin: 0;
   padding: 0;
@@ -13,5 +14,5 @@
   background:#444;
   width: 500px;
   height: 550px;
-  color: white;
+  color: var(--clr-white);
 }
