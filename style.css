@@ -15,4 +15,7 @@
   width: 500px;
   height: 550px;
   color: var(--clr-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
