@@ -30,6 +30,10 @@
   background-color: var(--clr-white);
   color: var(--clr-dark);
   margin: 40px;
+  font-size: 55px;
+  font-family: var(--font-title);
+  color: red;
+  font-weight: 800;
 }
 .operate{
 width: 155px;
@@ -37,6 +41,7 @@ height: 55px;
 margin: 3px;
 padding-left: 10px;
 border: 1px;
+
 }
 .operate button{
   width: 45px;
