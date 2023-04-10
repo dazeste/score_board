@@ -24,7 +24,7 @@
   align-items: center;
 
 }
-#home-htn, #guest-btn{
+#home-htn, #guest-htn{
   width: 90px;
   height: 90px;
   background-color: var(--clr-white);
