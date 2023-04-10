@@ -19,9 +19,12 @@
   color: var(--clr-white);
   display: flex;
   justify-content: center;
+  text-align: center;
+  padding: 30px;
   align-items: center;
+
 }
-#home-htn{
+#home-htn, #guest-btn{
   width: 90px;
   height: 90px;
   background-color: var(--clr-white);
