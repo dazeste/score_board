@@ -12,6 +12,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: lightgray;
+}
 h1{
   align-items: center;
   color:red;
@@ -23,20 +26,22 @@ h1{
  justify-content: center;
  border:1px solid red;
  align-items: center;
- margin-top: 200px;;
+ margin-top: 200px;
+ overflow: hidden;
 }
 .row{ 
- height: 350px;
- width: 400px;
+ height: 550px;
+ width: 600px;
  background-color: var(--clr-black);
  color: var(--clr-white);
 display: flex;
-flex-direction: row;
+flex-direction: column;
 justify-content: center;
 text-align: center;
 padding: 30px;
 align-items: center;
 border-radius: 20px;
+border:3px solid green;
 
 }
 #home-htn, #guest-htn{
