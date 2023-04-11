@@ -18,16 +18,18 @@
   
  
 }
-.row{
- 
-  height: 350px;
+.row{ 
+ height: 350px;
+ width: 400px;
  background-color: var(--clr-black);
  color: var(--clr-white);
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  padding: 30px;
-  align-items: center;
+display: flex;
+flex-direction: row;
+/* justify-content: center; */
+text-align: center;
+padding: 30px;
+/* align-items: center; */
+border-radius: 20px;
 
 }
 #home-htn, #guest-htn{
