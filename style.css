@@ -12,8 +12,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container{
+.conatiner{
  color:blue;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ border:1px solid red;
+ align-items: center;
+
+  
+  
   
   
  
@@ -25,10 +33,10 @@
  color: var(--clr-white);
 display: flex;
 flex-direction: row;
-/* justify-content: center; */
+justify-content: center;
 text-align: center;
 padding: 30px;
-/* align-items: center; */
+align-items: center;
 border-radius: 20px;
 
 }
