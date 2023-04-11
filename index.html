@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Score board</title>
- <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
   <h1>Basketball scoreboard</h1>
   <div class="conatiner">
-    
-
-    <!-- home -->
-    <div class="home">
-      <h1>home</h1>
-      <button id="home-htn">0</button>
-      <div class="operate">
-        <button>+1</button>
-        <button>+2</button>
-        <button>+3</button>
-      </div>
+    <div class="time">
+      <h1 id="timer">00:00</h1>
     </div>
+    <div class="row">
+      <!-- home -->
+      <div class="home">
+        <h1>Home</h1>
+        <button id="home-htn">12</button>
+        <div class="operate">
+          <button>+1</button>
+          <button>+2</button>
+          <button>+3</button>
+        </div>
+      </div>
 
-    <!-- guest -->
-    <div class="guest">
-      <h1>Guest</h1>
-      <button id="guest-htn">110</button>
-      <div class="operate">
-        <button>+1</button>
-        <button>+2</button>
-        <button>+3</button>
+      <!-- guest -->
+      <div class="guest">
+        <h1>Guest</h1>
+        <button id="guest-htn">110</button>
+        <div class="operate">
+          <button>+1</button>
+          <button>+2</button>
+          <button>+3</button>
+        </div>
       </div>
     </div>
 
 
   </div>
-  
+
   <script src="app.js"></script>
 </body>
+
 </html>

@@ -4,7 +4,7 @@
   --font-title: 'Codystar', cursive;
   --clr-white:#fff;
   --clr-black:#333;
-  --clr-dark:#444;
+  --clr-dark:rgb(15, 14, 80);
 };
 
 *{
@@ -12,11 +12,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-.conatiner{
-  background-color:var(--clr-dark);
-  width: 400px;
+.container{
+ color:blue;
+  
+  
+ 
+}
+.row{
+ 
   height: 350px;
-  color: var(--clr-white);
+ background-color: var(--clr-black);
+ color: var(--clr-white);
   display: flex;
   justify-content: center;
   text-align: center;
