@@ -12,6 +12,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+h1{
+  align-items: center;
+  color:red;
+}
 .conatiner{
  color:blue;
  display: flex;
@@ -19,12 +23,6 @@
  justify-content: center;
  border:1px solid red;
  align-items: center;
-
-  
-  
-  
-  
- 
 }
 .row{ 
  height: 350px;
