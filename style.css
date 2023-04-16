@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800;900&display=swap');
 
 :root{
-  --font-title: 'Codystar', cursive;
+  --font-title: 'Orbitron', sans-serif;
   --clr-white:#fff;
   --clr-black:#333;
   --clr-dark:rgb(15, 14, 80);
