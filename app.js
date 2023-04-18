@@ -13,28 +13,22 @@ const guestTwo = document.getElementById("guest-two");
 const guestThree = document.getElementById("guest-three");
 
 
-
-
- 
-let count = 0;
+let countHome = 0;
+let countGuest= 0;
 
 function incrementOne(){
   count += 1
-  homeBtn.innerText = count;
-  // guestBtn.innerText = count;
+  homeBtn.innerText = countHome;
+  guestBtn.innerText = countGuest;
 }
-function incrementGuestOne(){
-  count += 1
-  // homeBtn.innerText = count;
-  guestBtn.innerText = count;
-}
+
 function incrementTwo(){
   count += 2
-  homeBtn.innerText = count;
-  guestBtn.innerText = count;
+  homeBtn.innerText = countHome;
+  guestBtn.innerText = countGuest;
 }
 function incrementThree(){
   count += 3
-  homeBtn.innerText = count;
-  guestBtn.innerText = count;
+  homeBtn.innerText = countHome;
+  guestBtn.innerText = countGuest;
 }

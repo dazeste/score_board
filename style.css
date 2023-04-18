@@ -52,23 +52,18 @@ position:relative;
 
 
 }
-.time{
-  border:1px solid red;
- position:absolute;
- top:70px;
- left:45%;
- font-size: 30px;
-}
-#home-htn, #guest-htn{
-  width: 90px;
-  height: 90px;
+
+#home-btn, #guest-btn{
+  width: 150px;
+  height: 150px;
   background-color: var(--clr-white);
   color: var(--clr-dark);
   margin: 40px;
-  font-size: 55px;
+  font-size: 6rem;
   font-family: var(--font-title);
   color: red;
   font-weight: 800;
+  border-radius: 10px;
   
 }
 .operate{
