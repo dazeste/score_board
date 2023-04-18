@@ -20,6 +20,6 @@ let count = 0;
 
 function incrementOne(){
   count += 1
-  homeOne.innerText = count;
-  guestOne.innerText = count;
+  homeBtn.innerText = count;
+  guestBtn.innerText = count;
 }
