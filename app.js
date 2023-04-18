@@ -21,10 +21,15 @@ let count = 0;
 function incrementOne(){
   count += 1
   homeBtn.innerText = count;
-  guestBtn.innerText = count;
+  // guestBtn.innerText = count;
 }
 function incrementTwo(){
   count += 2
   homeBtn.innerText = count;
-  guestBtn.innerText = count;
+  // guestBtn.innerText = count;
+}
+function incrementThree(){
+  count += 3
+  homeBtn.innerText = count;
+  // guestBtn.innerText = count;
 }
