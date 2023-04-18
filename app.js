@@ -5,6 +5,9 @@ const homeCount = document.getElementById("home-count");
 const guestCount=document.getElementById("guest-count");
  
 let count = 0;
+
 function incrementOne(){
-count +=1
+  count += 1
+  homeBtn.innerText = count;
+  guestBtn.innerText = count;
 }
