@@ -1,4 +1,4 @@
-const homeBtn = document.getElementById("home-htn");
+const homeBtn = document.getElementById("home-btn");
 const guestBtn = document.getElementById("guest-btn");
 const countBtn = document.getElementById("count-btn");
 const homeCount = document.getElementById("home-count");
@@ -21,5 +21,10 @@ let count = 0;
 function incrementOne(){
   count += 1
   homeBtn.innerText = count;
-  // guestBtn.innerText = count;
+  guestBtn.innerText = count;
+}
+function incrementTwo(){
+  count += 2
+  homeBtn.innerText = count;
+  guestBtn.innerText = count;
 }
