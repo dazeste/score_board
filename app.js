@@ -21,5 +21,5 @@ let count = 0;
 function incrementOne(){
   count += 1
   homeBtn.innerText = count;
-  guestBtn.innerText = count;
+  // guestBtn.innerText = count;
 }
