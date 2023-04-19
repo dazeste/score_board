@@ -17,9 +17,9 @@ let countHome = 0;
 let countGuest= 0;
 
 function incrementOne(){
-  count += 1
-  homeBtn.innerText = countHome;
-  guestBtn.innerText = countGuest;
+ countHome +=1
+ homeBtn.innerText = countHome
+
 }
 
 function incrementTwo(){
