@@ -16,23 +16,31 @@ const guestCount = document.getElementById("guest-count");
 let countHome = 0;
 let countGuest= 0;
 
+// +1
 function incrementOne(){
  countHome += 1
  homeBtn.innerText = countHome; 
 }
-
 function incrementGuestOne(){
   countGuest += 1
   guestBtn.innerText = countGuest;
 }
-
+// +2
 function incrementTwo(){
   countHome += 2
   homeBtn.innerText = countHome; 
- }
- 
+ } 
  function incrementGuestTwo(){
    countGuest += 2
+   guestBtn.innerText = countGuest;
+ }
+ // +3
+function incrementThree(){
+  countHome += 3
+  homeBtn.innerText = countHome; 
+ } 
+ function incrementGuestThree(){
+   countGuest += 3
    guestBtn.innerText = countGuest;
  }
 
