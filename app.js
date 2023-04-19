@@ -18,14 +18,23 @@ let countGuest= 0;
 
 function incrementOne(){
  countHome += 1
-
- homeBtn.innerText = countHome;
- 
+ homeBtn.innerText = countHome; 
 }
+
 function incrementGuestOne(){
   countGuest += 1
   guestBtn.innerText = countGuest;
 }
+
+function incrementTwo(){
+  countHome += 2
+  homeBtn.innerText = countHome; 
+ }
+ 
+ function incrementGuestTwo(){
+   countGuest += 2
+   guestBtn.innerText = countGuest;
+ }
 
 // function incrementTwo(){
 //   count += 2
