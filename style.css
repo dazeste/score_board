@@ -36,7 +36,7 @@ left:25%; */
 
 }
 .row{ 
- height: 550px;
+ height: 450px;
  width: 600px;
  background-color: var(--clr-black);
  color: var(--clr-white);
@@ -58,6 +58,7 @@ top:50px;
 h1{
   font-family: var(--font-title);
   font-size:3rem;
+  border:1px solid red
 }
 
 #home-btn, #guest-btn{
@@ -65,7 +66,7 @@ h1{
   height: 150px;
   background-color: var(--clr-white);
   color: var(--clr-dark);
-  margin: 40px;
+  /* margin: 40px; */
   font-size: 6rem;
   font-family: var(--font-title);
   color: red;
@@ -76,14 +77,14 @@ h1{
 .operate{
 width: 155px;
 height: 55px;
-margin: 3px;
-padding-left: 10px;
-border: 1px;
+margin: 23px;
+/* padding: 20px; */
+border:1px solid red
 
 }
 .operate button{
   width: 45px;
-  height: 45px;
+  height: 55px;
 }
 .counter{
   background-color: #333;
