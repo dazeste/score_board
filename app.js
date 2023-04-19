@@ -43,14 +43,3 @@ function incrementThree(){
    countGuest += 3
    guestBtn.innerText = countGuest;
  }
-
-// function incrementTwo(){
-//   count += 2
-//   homeBtn.innerText = countHome;
-//   guestBtn.innerText = countGuest;
-// }
-// function incrementThree(){
-//   count += 3
-//   homeBtn.innerText = countHome;
-//   guestBtn.innerText = countGuest;
-// }
