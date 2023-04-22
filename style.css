@@ -21,9 +21,8 @@ h1{
 
 }
 .conatiner{
-  /* position: absolute;
- top:20px;
-left:25%; */
+display:flex;
+justify-content: center;
  /* color:blue;
  display: flex;
  flex-direction: row;
@@ -34,6 +33,7 @@ left:25%; */
  overflow: hidden;
  position:absolute; */
  border-radius: 3px solid red;
+ 
 
 }
 .row{ 
@@ -44,7 +44,7 @@ left:25%; */
 display: flex;
 flex-direction: row;
 justify-content: center;
-text-align: center;
+/* text-align: center; */
 padding: 30px;
 align-items: center;
 border-radius: 20px;
@@ -107,4 +107,5 @@ border:1px solid red
   background-color: green;
   border:none;
   color: var(--clr-white);
+  border:1px solid pink;
 }
