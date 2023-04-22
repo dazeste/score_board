@@ -91,11 +91,12 @@ border:1px solid red
   background-color: #333;
   margin: 15px;
   padding: 10px 145px;
-  position: absolute;
+  /* position: absolute;
   bottom:20px;
-  left:35%;
+  left:35%; */
   border-radius: 20px;
-  color:var(--clr-white)
+  color:var(--clr-white);
+  border:13px solid pink;
 
 
 }
@@ -107,5 +108,5 @@ border:1px solid red
   background-color: green;
   border:none;
   color: var(--clr-white);
-  border:1px solid pink;
+ 
 }
