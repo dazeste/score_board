@@ -33,7 +33,7 @@ justify-content: center;
  overflow: hidden;
  position:absolute; */
  border-radius: 3px solid red;
- align-items: center;
+
  
 
 }
@@ -92,6 +92,7 @@ border:1px solid red
 .operate button{
   width: 45px;
   height: 55px;
+  align-items: center;
 }
 .counter{
   display:flex;
