@@ -33,6 +33,7 @@ justify-content: center;
  overflow: hidden;
  position:absolute; */
  border-radius: 3px solid red;
+ align-items: center;
  
 
 }
@@ -55,13 +56,14 @@ top:50px;
 
 
 
+
 }
 h1{
   font-family: var(--font-title);
   font-size:3rem;
   border:3px solid orangered;
   /* display: flex; */
-  align-items: center;
+ 
 }
 
 #home-btn, #guest-btn{
