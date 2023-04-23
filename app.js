@@ -39,9 +39,10 @@ function incrementThree(){
    guestBtn.innerText = countGuest;
  }
 
- function save(){
-   let total = countHome + " - "
-   saveBtn.textContent += total
-   homeCount.innerText = 0
+//  some error! fix it
+//  function save(){
+//    let total = countHome + " - "
+//    saveBtn.textContent += total
+//    homeCount.innerText = 0
    
- }
+//  }
