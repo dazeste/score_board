@@ -40,7 +40,7 @@ function incrementThree(){
  }
 
  function save(){
-   let total countHome + " - "
+   let total = countHome + " - "
    saveBtn.textContent += total
    homeBtn.innerText = 0
    countHome = 0
