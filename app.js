@@ -38,3 +38,10 @@ function incrementThree(){
    countGuest += 3
    guestBtn.innerText = countGuest;
  }
+
+ function save(){
+   let total countHome + " - "
+   saveBtn.textContent += total
+   homeBtn.innerText = 0
+   countHome = 0
+ }
