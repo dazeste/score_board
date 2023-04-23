@@ -42,6 +42,6 @@ function incrementThree(){
  function save(){
    let total = countHome + " - "
    saveBtn.textContent += total
-   homeBtn.innerText = 0
-   countHome = 0
+   homeCount.innerText = 0
+   
  }
