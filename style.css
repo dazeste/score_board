@@ -80,16 +80,18 @@ h1{
 }
 .operate{
 width: 255px;
-height: 55px;
+/* height: 75px; */
 margin: 23px;
 /* padding: 20px; */
 border:1px solid red
 
 }
 .operate button{
-  width: 45px;
-  height: 55px;
+  width: 65px;
+  height:75px;
   align-items: center;
+  font-size:2rem;
+  padding:10px;
 }
 .counter{
   display:flex;
